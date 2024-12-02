@@ -69,7 +69,7 @@ pub fn main() !void {
     }
 
     std.debug.print("Total sum of distances: {d}\n", .{total});
-    std.debug.print("Total similarity numbers: {}\n", .{totalSimilarityNumbers});
+    std.debug.print("Total similarity numbers: {d}\n", .{totalSimilarityNumbers});
 }
 
 fn parseNumber(string: []const u8) !u32 {
